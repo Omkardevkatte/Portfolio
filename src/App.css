@@ -1,0 +1,10 @@
+@import url(../../Portfolio/src/vars.css);
+
+
+
+.App{
+    background-color: var(--color-dark);
+    font-family: var(--font-robot);
+    width: 100%;
+    margin: 0;
+}

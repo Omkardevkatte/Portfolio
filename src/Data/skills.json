@@ -1,0 +1,42 @@
+[
+    {
+        "title": "HTML",
+        "imgsrc": "src/assets/html-icon.png"  
+    },
+    {
+        "title": "CSS",
+        "imgsrc": "path/to/css/image.png"  
+    },
+    {
+        "title": "JavaScript",
+        "imgsrc": "path/to/javascript/image.png"  
+    },
+    {
+        "title": "React",
+        "imgsrc": "path/to/react/image.png"  
+    },
+    {
+        "title": "Node.js",
+        "imgsrc": "path/to/nodejs/image.png"  
+    },
+    {
+        "title": "Python",
+        "imgsrc": "path/to/python/image.png"  
+    },
+    {
+        "title": "Django",
+        "imgsrc": "path/to/django/image.png"  
+    },
+    {
+        "title": "Flask",
+        "imgsrc": "path/to/flask/image.png"  
+    },
+    {
+        "title": "Java",
+        "imgsrc": "path/to/java/image.png"  
+    },
+    {
+        "title": "C++",
+        "imgsrc": "path/to/cplusplus/image.png"  
+    }   
+]
