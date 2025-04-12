@@ -1,19 +1,22 @@
 [
 
+
+    {
+        "role":"Freelance Website Designer",
+        "org" : "",
+        "startDate" : "2023-01-01",
+        "endDate": "present",
+        "experience" : ["Designed Websites using Wix, Wordpress","Optimized SEO for websites","Brainstroming creative web design ideas","Understanding client requirements"],
+        "imgsrc": "/fiverr.png"
+    },
+
     {
         "role":"Website Designer",
         "org" : "Adwire Agency",
         "startDate" : "2023-01-01",
         "endDate": "2024-02-03",
         "experience" : ["Designed Websites using Wix, Wordpress","Optimized SEO for websites","Brainstroming creative web design ideas","Understanding client requirements"],
-        "imgsrc": ""
-    },
-    {
-        "role":"Freelance Designer",
-        "org" : "Self Employed",
-        "startDate" : "2023-01-01",
-        "endDate": "present",
-        "experience" : ["Designed Websites using Wix, Wordpress","Optimized SEO for websites","Brainstroming creative web design ideas","Understanding client requirements"],
-        "imgsrc": ""
+        "imgsrc": "/adwire.png"
     }
+    
 ]

@@ -1,0 +1,8 @@
+.footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    background: -webkit-linear-gradient(45deg, #5cbf9c, #3694ff);
+}

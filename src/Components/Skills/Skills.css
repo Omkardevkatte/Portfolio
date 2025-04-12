@@ -1,0 +1,39 @@
+.skills-container{
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.exp-skills{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 30px;
+}
+
+.skill-img-container{
+    
+    /* background-color: var(--color-primary); */
+    border: 1px solid #19376d;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height:120px;
+}
+
+
+.skill-img-container img{
+    width: 75px;
+}

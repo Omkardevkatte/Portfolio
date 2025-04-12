@@ -1,0 +1,28 @@
+[
+    {
+        "title" : "Employee Management System",
+        "imgSrc" : "public/project1.png",
+        "description" : "A web application to manage employee records, including CRUD operations and user authentication.",
+        "techStack" : ["Java", "Sprint Boot", "MySQL"],
+        "Source" : "https://github.com/Omkardevkatte/Employee-management-system-Backend"
+    }
+
+    ,
+
+    {
+        "title" : "Portfolio Website",
+        "imgSrc" : "public/project2.png",
+        "description" : "A personal portfolio website to showcase projects and skills.",
+        "techStack" : ["HTML", "CSS", "React JS", "Figma"],
+        "Source" : "https://github.com/Omkardevkatte/Portfolio"
+    }
+    ,
+    {
+        "title" : "Chat Application",
+        "imgSrc" : "public/project1.png",
+        "description" : "A real-time chat application with user authentication and message history.",
+        "techStack" : ["Java", "Spring Boot", "Socket.io"],
+        "Source" : "https://github.com/Omkardevkatte/Chat-Application"
+    }
+
+]

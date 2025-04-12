@@ -1,42 +1,58 @@
 [
     {
         "title": "HTML",
-        "imgsrc": "src/assets/html-icon.png"  
+        "imgsrc": "/html.png"  
     },
     {
         "title": "CSS",
-        "imgsrc": "path/to/css/image.png"  
+        "imgsrc": "/css.png"    
     },
     {
         "title": "JavaScript",
-        "imgsrc": "path/to/javascript/image.png"  
+        "imgsrc": "/javascript.png"  
     },
     {
         "title": "React",
-        "imgsrc": "path/to/react/image.png"  
-    },
-    {
-        "title": "Node.js",
-        "imgsrc": "path/to/nodejs/image.png"  
-    },
-    {
-        "title": "Python",
-        "imgsrc": "path/to/python/image.png"  
-    },
-    {
-        "title": "Django",
-        "imgsrc": "path/to/django/image.png"  
-    },
-    {
-        "title": "Flask",
-        "imgsrc": "path/to/flask/image.png"  
+        "imgsrc": "/react.png"  
     },
     {
         "title": "Java",
-        "imgsrc": "path/to/java/image.png"  
+        "imgsrc": "/java.png"  
     },
     {
-        "title": "C++",
-        "imgsrc": "path/to/cplusplus/image.png"  
-    }   
+        "title": "Spring boot",
+        "imgsrc": "/spring_boot.png"  
+    },
+    {
+        "title": "mysql",
+        "imgsrc": "/mysql.png"  
+    },
+    {
+        "title": "mongodb",
+        "imgsrc": "/mongodb.png"  
+    },
+    {
+        "title": "tailwind",
+        "imgsrc": "/tailwind_css.png"  
+    }  , 
+    {
+        "title": "Bootstrap",
+        "imgsrc": "/bootstrap.png"  
+    },
+    {
+        "title": "Figma",
+        "imgsrc": "/figma.png"  
+    },
+    {
+        "title": "Git",
+        "imgsrc": "/git.png"
+    }  ,
+    {
+        "title": "wix",
+        "imgsrc": "/wix.png"
+    },
+    {
+        "title": "Wordpress",
+        "imgsrc": "/wordpress.png"
+    }
 ]

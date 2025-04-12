@@ -15,7 +15,7 @@
 
 .title{
 
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
@@ -24,6 +24,8 @@
 
 .menu{
     display: flex;
+    gap: 40px;
+    justify-content: space-between;
 }
 
 .menu-items{
@@ -39,6 +41,11 @@
     text-decoration: none;
 }
 
+.menu img{
+    width: 20px;
+    cursor: pointer;
+}
+
 .menu-icon{
     display: none;
     color: white;
@@ -50,6 +57,10 @@
 
 
 @media screen and (max-width: 830px) {
+
+    .title{
+        font-size: 16px;
+    }
     .navbar{
         flex-direction: column;
         align-items: flex-start;
@@ -86,5 +97,9 @@
     .menuOpen{
         display: flex;
         z-index: 1;
+    }
+
+    .menu img{
+        display: none;
     }
 }

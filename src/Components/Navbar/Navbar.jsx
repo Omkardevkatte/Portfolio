@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css';
+import giticon from '../../../public/github.png'
+import linkedin from '../../../public/linkedin.png'
 
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className='navbar'>
-        <a href="/" className='title'>Portfolio</a>
+        <a href="/" className='title'>Omkar_Devkatte</a>
         <div className='menu'>
         <FontAwesomeIcon icon={menuOpen ? faXmark : faBars } onClick={()=> SetMenuOpen(!menuOpen)} className='menu-icon' />
             <ul className={`menu-items ${menuOpen ? "menuOpen" : ""}`} onClick={()=> SetMenuOpen(false)}>
@@ -21,6 +23,8 @@ const Navbar = () => {
                 <li> <a href="#Projects">Projects</a> </li>
                 <li> <a href="#Contact">Contact</a> </li>
             </ul>
+            <a target='_blank' href="https://github.com/Omkardevkatte"><img src={giticon} alt="" /></a>
+                <a target='_blank' href="https://www.linkedin.com/in/omkar-devkatte"> <img src={linkedin} alt="" /> </a>
         </div>
     </nav>
   )

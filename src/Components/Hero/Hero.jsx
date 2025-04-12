@@ -1,6 +1,10 @@
 import React from "react";
-import image from '../../assets/Developer.png';
-import './Hero.css'
+// import image from "../../../public/Developer.png";
+import "./Hero.css";
+import icon from "../../../public/contact.png";
+import cvIcon from '../../../public/Share-icon.png'
+import omkar from '../../../public/Omkar-img.png'
+import Resume from '../../../public/Omkar_Devkatte_Fresher 2024.pdf'
 
 const Hero = () => {
   return (
@@ -9,16 +13,26 @@ const Hero = () => {
         <h1 className="heroTitle">
           Hi, I'm <span className="name">Omkar</span>
         </h1>
+        <h3> <i>Fullstack Developer</i> </h3>
         <p className="description">
-          I'm a software engineer with a passion for building web applications.
+        Recent Computer Engineering graduate with a strong foundation in Java, databases, and web development, 
+complemented by hands-on project work and freelance experience. Seeking a challenging opportunity to 
+contribute technical and communication skills in a product-focused environment. 
         </p>
-        <a href="#Contact" className="contactBtn">
-          Contact Me
-        </a>
+
+        <div className="btn-container">
+          <div className="button">
+            <img src={icon} alt="Contact Icon" />
+            <a  href="#Contact">Contact Me</a>
+          </div>
+
+          <div className="button2">
+            <img src={cvIcon} alt="Contact Icon" />
+            <a target="_blank" href={Resume}>Download Resume</a>
+          </div>
+             </div>
       </div>
-      <img src={image} alt="Developer" className="heroImg" />
-      <div className="topBlur"></div>
-      <div className="bottomBlur"></div>
+      <img src={omkar} alt="Developer" className="heroImg" />
     </section>
   );
 };
